@@ -38,6 +38,7 @@ body{
   max-width:100%;
   margin-left: -1em;
   font-family: 'Ubuntu', sans-serif;
+  min-height: 100%;
 }
 
 html{
@@ -205,6 +206,40 @@ li{
   font-size: 1em;
 }
 
+/*homepage*/
+.circle {
+	width: 300px;
+	height: 300px;
+	background: blue;
+   color: rgba(123, 136, 138, 0.8);
+	-moz-border-radius: 300px;
+	-webkit-border-radius: 300px;
+	border-radius: 300px;
+  margin-left: 6em;
+  margin-right: 3em;
+  float:left;
+}
+
+.aboutme{
+  float:left;
+  width: 95%;
+  margin-left: 2em;
+  vertical-align: middle;
+  text-align: center;
+  align-content: center;
+}
+
+.socialicon{
+  float: left;
+  align-content: center;
+  margin-left: 3em;
+  display:inline-block;
+}
+
+
+h4{
+  color:white;
+}
 
 /* Marketing Experience*/
  
